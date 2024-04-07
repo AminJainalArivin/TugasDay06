@@ -13,6 +13,10 @@ public class NamaBarang {
         this.id = id;
     }
 
+    public static int size() {
+
+    }
+
 
 
     public String getNama() {

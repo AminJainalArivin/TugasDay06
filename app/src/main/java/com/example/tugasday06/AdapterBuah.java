@@ -26,10 +26,10 @@ public class AdapterBuah extends RecyclerView.Adapter<AdapterBuah.ViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull AdapterBuah.ViewHolder holder, int position) {
-        holder.tvnama.setText(NamaBarang.get(position).getNama());
-        holder.tvdeskripsi.setText(NamaBarang.get(position).getDeskripsi());
-        holder.tvharga.setText(NamaBarang.get(position).getHarga());
-        holder.ivfotoitem.setImageResource(NamaBarang.get(position).getFotoitem());
+        holder.tvnama.setText(namaBarang.get(position).getNama());
+        holder.tvdeskripsi.setText(namaBarang.get(position).getDeskripsi());
+        holder.tvharga.setText(namaBarang.get(position).getHarga());
+        holder.ivfotoitem.setImageResource(namaBarang.get(position).getFotoitem());
     }
 
     @Override
